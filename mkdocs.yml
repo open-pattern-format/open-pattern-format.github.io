@@ -1,5 +1,5 @@
 site_name: Open Pattern Format
-site_url: https://open-pattern-format.github.io
+site_url: https://docs.openpatternformat.com
 theme:
   name: material
   logo: assets/opaf_icon.png
