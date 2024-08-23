@@ -1,0 +1,11 @@
+site_name: Open Pattern Format
+site_url: https://open-pattern-format.github.io
+theme:
+  name: material
+  logo: assets/opaf_icon.png
+  favicon: assets/opaf_icon.png
+  palette:
+    scheme: default
+    primary: custom
+extra_css:
+  - stylesheets/extra.css
