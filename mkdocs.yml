@@ -1,5 +1,6 @@
 site_name: Open Pattern Format
 site_url: https://docs.openpatternformat.com
+copyright: Copyright &copy; 2024 Scott Ware
 theme:
   name: material
   logo: assets/opaf_icon.png
@@ -7,5 +8,27 @@ theme:
   palette:
     scheme: default
     primary: custom
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.path
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://openpatternformat.com
+      name: Website
+    - icon: fontawesome/brands/github
+      link: https://github.com/open-pattern-format
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/openpatternproject
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
