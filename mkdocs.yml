@@ -34,3 +34,5 @@ nav:
   - Home: index.md
   - Getting Started:
     - Overview: getting_started/overview.md
+  - Pattern Manager:
+    - Overview: pattern_manager/overview.md
