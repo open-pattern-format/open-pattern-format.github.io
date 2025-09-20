@@ -8,22 +8,28 @@
       
       
       
+        <link rel="canonical" href="https://docs.openpatternformat.com/developers/pattern_spec/">
       
       
+        <link rel="prev" href="../overview/">
       
-      <link rel="icon" href="/assets/opaf_icon.png">
+      
+        <link rel="next" href="../project_spec/">
+      
+      
+      <link rel="icon" href="../../assets/opaf_icon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Open Pattern Format</title>
+        <title>Pattern Specification - Open Pattern Format</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -42,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -67,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#opaf-pattern-specification" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -79,9 +90,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="Open Pattern Format" class="md-header__button md-logo" aria-label="Open Pattern Format" data-md-component="logo">
+    <a href="../.." title="Open Pattern Format" class="md-header__button md-logo" aria-label="Open Pattern Format" data-md-component="logo">
       
-  <img src="/assets/opaf_icon.png" alt="logo">
+  <img src="../../assets/opaf_icon.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -98,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Pattern Specification
             
           </span>
         </div>
@@ -176,9 +187,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="Open Pattern Format" class="md-nav__button md-logo" aria-label="Open Pattern Format" data-md-component="logo">
+    <a href="../.." title="Open Pattern Format" class="md-nav__button md-logo" aria-label="Open Pattern Format" data-md-component="logo">
       
-  <img src="/assets/opaf_icon.png" alt="logo">
+  <img src="../../assets/opaf_icon.png" alt="logo">
 
     </a>
     Open Pattern Format
@@ -193,7 +204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -253,7 +264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/getting_started/overview/" class="md-nav__link">
+      <a href="../../getting_started/overview/" class="md-nav__link">
         
   
   
@@ -321,7 +332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pattern_manager/overview/" class="md-nav__link">
+      <a href="../../pattern_manager/overview/" class="md-nav__link">
         
   
   
@@ -389,7 +400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/pattern_creator/overview/" class="md-nav__link">
+      <a href="../../pattern_creator/overview/" class="md-nav__link">
         
   
   
@@ -416,18 +427,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -443,7 +456,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Developers
@@ -457,7 +470,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developers/overview/" class="md-nav__link">
+      <a href="../overview/" class="md-nav__link">
         
   
   
@@ -477,10 +490,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/developers/pattern_spec/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Pattern Specification
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -491,6 +526,62 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pattern
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Color
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Action
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -503,7 +594,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developers/project_spec/" class="md-nav__link">
+      <a href="../project_spec/" class="md-nav__link">
         
   
   
@@ -526,7 +617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developers/packaging/" class="md-nav__link">
+      <a href="../packaging/" class="md-nav__link">
         
   
   
@@ -549,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/developers/functions/" class="md-nav__link">
+      <a href="../functions/" class="md-nav__link">
         
   
   
@@ -589,6 +680,52 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pattern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pattern
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metadata
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Color
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#action" class="md-nav__link">
+    <span class="md-ellipsis">
+      Action
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -600,8 +737,61 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="opaf-pattern-specification">OPAF Pattern Specification</h1>
+<p>Pattern files have the extension <code>.opaf</code> and should be seen as source code for a given pattern. Pattern files require <a href="../packaging/">packaging</a> before being distributed.</p>
+<p>A pattern is built using the following basic elements:</p>
+<ul>
+<li><code>&lt;opaf:component&gt;</code></li>
+<li><code>&lt;opaf:instruction&gt;</code></li>
+<li><code>&lt;opaf:action&gt;</code></li>
+</ul>
+<h2 id="pattern">Pattern</h2>
+<p>A pattern file requires a <code>&lt;pattern&gt;</code> root element with the following attributes:</p>
+<ul>
+<li><code>xmlns:opaf</code>: <code>"https://github.com/open-pattern-format/opaf"</code></li>
+<li><code>name</code>: The name of the pattern [required]</li>
+<li><code>version</code>: Version number which is compatible with the <a href="https://semver.org/">Symantic Versioning Specification</a> (e.g. 1.0.0) [required]</li>
+<li><code>unique_id</code>: UUID identifier for the pattern (e.g. 89ab9835-10c0-46a8-89ab-d81b980a1d97)</li>
+</ul>
+<div class="language-xml highlight"><span class="filename">Pattern Example</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">&lt;pattern</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;1.0.0&quot;</span><span class="w"> </span><span class="na">xmlns:opaf=</span><span class="s">&quot;https://github.com/open-pattern-format/opaf&quot;</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;My First Pattern&quot;</span><span class="w"> </span><span class="na">unique_id=</span><span class="s">&quot;123ab456-1234-56cc-d789-60f8305bcdab&quot;</span><span class="nt">&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nt">&lt;/pattern&gt;</span>
+</span></code></pre></div>
+<h2 id="metadata">Metadata</h2>
+<p>Metadata is indicated by a <code>&lt;opaf:metadata&gt;</code> node which will contain nested child elements. See the <a href="../metadata/">metadata specification</a> documentation for more information.</p>
+<div class="language-xml highlight"><span class="filename">Metadata Example</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">&lt;opaf:metadata&gt;</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">    </span>...
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nt">&lt;/opaf:metadata&gt;</span>
+</span></code></pre></div>
+<h2 id="color">Color</h2>
+<p>Colors which will be used in the pattern are defined using <code>&lt;opaf:define_color&gt;</code> nodes. The following attributes are supported:</p>
+<ul>
+<li><code>name</code>: A string identifier for the color. The name must not contain spaces.</li>
+<li><code>description</code>: A short description of the color and what it is used for.</li>
+<li><code>value</code>: A hex representation of the color or one of the following <code>[black, silver, white, red, purple, green, yellow, blue]</code></li>
+</ul>
+<div class="language-xml highlight"><span class="filename">Color Example</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">&lt;opaf:define_color</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;contrast&quot;</span><span class="w"> </span><span class="na">value=</span><span class="s">&quot;#2a365c&quot;</span><span class="w"> </span><span class="na">description=</span><span class="s">&quot;Contrast yarn&quot;</span><span class="nt">/&gt;</span>
+</span></code></pre></div>
+<h2 id="action">Action</h2>
+<p>Actions are used to build instructions in a pattern. Everything from a simple knit stitch to cables are defined using actions.</p>
+<p>A set of standard knitting actions are defined <a href="https://github.com/open-pattern-format/opaf/blob/main/actions.opaf">HERE</a>.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -613,6 +803,44 @@
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Overview
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../project_spec/" class="md-footer__link md-footer__link--next" aria-label="Next: Project Specification">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Project Specification
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
@@ -678,10 +906,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": ["content.code.copy", "navigation.footer", "navigation.instant", "navigation.tracking", "navigation.path"], "search": "/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "navigation.footer", "navigation.instant", "navigation.tracking", "navigation.path"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
     
   </body>

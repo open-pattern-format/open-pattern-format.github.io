@@ -2,12 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.openpatternformat.com/</loc>
-         <lastmod>2024-08-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/developers/functions/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/developers/metadata/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/developers/overview/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/developers/packaging/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/developers/pattern_spec/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/developers/project_spec/</loc>
+         <lastmod>2025-09-20</lastmod>
     </url>
     <url>
          <loc>https://docs.openpatternformat.com/getting_started/overview/</loc>
-         <lastmod>2024-08-24</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/pattern_creator/overview/</loc>
+         <lastmod>2025-09-20</lastmod>
+    </url>
+    <url>
+         <loc>https://docs.openpatternformat.com/pattern_manager/overview/</loc>
+         <lastmod>2025-09-20</lastmod>
     </url>
 </urlset>
