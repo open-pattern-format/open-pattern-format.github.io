@@ -30,9 +30,28 @@ extra:
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
 nav:
   - Home: index.md
   - Getting Started:
     - Overview: getting_started/overview.md
   - Pattern Manager:
     - Overview: pattern_manager/overview.md
+  - Pattern Creator:
+    - Overview: pattern_creator/overview.md
+  - Developers:
+    - Overview: developers/overview.md
+    - Pattern Specification: developers/pattern_spec.md
+    - Project Specification: developers/project_spec.md
+    - Packaging: developers/packaging.md
+    - Functions: developers/functions.md
